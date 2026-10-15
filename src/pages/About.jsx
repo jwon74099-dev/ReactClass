@@ -1,10 +1,11 @@
 import NavBar from '../Components/NavBar';
+import Hero from '../Components/hero';
 function About() {
   return (
     <>
       <NavBar />
-      <h1>About Us</h1>
-      <p>This is the about page of our Vite project.</p>
+      <Hero Pagename="About Page" />  
+      <h1>About page</h1>
     </>
   );
 }

@@ -1,10 +1,13 @@
 import NavBar from '../Components/NavBar';
-
+import Hero from '../Components/hero';
 function Home() {
+   const name = "john doe";
   return (
     <>
         <NavBar />
-      <h1>Welcome to the Home Page</h1>
+        <Hero Pagename = "Home Page" />
+      <h1>Home Page</h1>
+       <h3>Welcome, {name}!</h3>
     </>
   );
 }
